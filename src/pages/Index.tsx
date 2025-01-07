@@ -1,7 +1,7 @@
 const Index = () => {
   return (
-    <div className="min-h-screen w-full p-4">
-      <div className="w-full h-screen rounded-lg overflow-hidden shadow-lg border border-gray-200">
+    <div className="min-h-screen w-full p-2 sm:p-4">
+      <div className="w-full h-[calc(100vh-16px)] sm:h-screen rounded-lg overflow-hidden shadow-lg border border-gray-200">
         <iframe 
           src="https://carrot-fi.xyz/"
           className="w-full h-full"
